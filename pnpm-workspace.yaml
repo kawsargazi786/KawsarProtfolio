@@ -1,0 +1,8 @@
+packages:
+  - '.'
+nodeLinker: hoisted
+storeDir: .sites-runtime/pnpm-store
+enableGlobalVirtualStore: false
+allowBuilds:
+  esbuild: true
+  '@tailwindcss/oxide': true
